@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "536567239473",
+    "project_id": "telehealth-consultation-app",
+    "storage_bucket": "telehealth-consultation-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536567239473:android:cda865eef892eab34f1610",
+        "android_client_info": {
+          "package_name": "com.limb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQXHAjMKgwUQPbD5-jai-f3vfZfn3pCVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536567239473:android:ce5a57f443ecfd644f1610",
+        "android_client_info": {
+          "package_name": "com.limbash.telehealth_consultation_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQXHAjMKgwUQPbD5-jai-f3vfZfn3pCVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
