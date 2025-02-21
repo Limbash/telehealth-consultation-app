@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:telehealth_consultation_app/firebase_options.dart';
 import 'package:telehealth_consultation_app/src/features/welcome/screens/splashscreen.dart';
+import 'package:telehealth_consultation_app/src/utils/themes/themes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,8 +16,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(brightness: Brightness.light),
-      darkTheme: ThemeData(brightness: Brightness.dark),
+      debugShowCheckedModeBanner: false,
+      theme: THealthThemes.lightMode,
+      darkTheme: THealthThemes.darkMode,
       themeMode: ThemeMode.system,
       home: SplashScreen(),
     );
